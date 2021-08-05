@@ -5,7 +5,7 @@ import numpy as np
 
 # backslashes cause error in the string, so 'r' converts the string to raw string
 # 800 png files
-DATASET_PATH = r'C:\Users\kamil\Machine Learning\andy\res'
+DATASET_PATH = r'C:\Users\kamil\Machine Learning\andy\image_data'
 # 16 labels
 CLASS_INDEX = ['(', ')', '+', '-', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'slash', 'star']
 NUM_CLASSES = 16
